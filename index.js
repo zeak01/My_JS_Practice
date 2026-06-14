@@ -8,10 +8,8 @@ function sayHi() {
     }, 3000);
 }
 
-function sayHello() {
-    setTimeout(function() {
-    console.log("Hello!"); 
-    }, 3000);
+function sayHello() {    
+console.log("Hello!")
 }
 
 function sayHi() {
@@ -23,11 +21,11 @@ function sayHi() {
 function sayHello() {
     setTimeout(function() {
         console.log("Hello" + " " + "Oluwaseun," + " " + "How are you doing today?");
-    }, 2000);
+    }, 5000);
 }
 
 function greet() {
     setTimeout(function() {
 console.log("It is nice meeting you today. Am glad that you went to church and that you came back safely.")
-}, 5000);
+}, 10000);
 }
