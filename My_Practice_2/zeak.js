@@ -9,10 +9,9 @@ const anotherObj ={
         afternoon: "Iced tea",
     },
     action: function () {
-        return `Time to ${this.hobbies[2]}!`;
+        return `Time to ${this.hobbies[2]} like i have never done before, so ${this.beverage.morning} please!`;
     }
 }
-
 console.log(myObj);
 console.log(myObj.name);
 console.log(anotherObj.alive);
@@ -31,3 +30,5 @@ console.log(anotherObj.hobbies[2]);
 console.log(anotherObj.beverage["morning"]);
 console.log(anotherObj.beverage["afternoon"]);
 
+
+console.log(anotherObj.action());
