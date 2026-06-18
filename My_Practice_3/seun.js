@@ -75,6 +75,11 @@ delete band.drums;
 console.log(band.hasOwnProperty("drums")); // Output: false
 
 
+//DESTRUCTURING OBJECTS
+const { guitar: myVariable, bass: myBass} = band
+console.log(myVariable);
+console.log(myBass); 
+
 
 //CONVERTING OBJECTS TO ARRAYS
 console.log(Object.keys(band)); // Output: ["vocals", "guitar", "bass", "drums"]
